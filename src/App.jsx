@@ -1,11 +1,14 @@
 import './App.css'
+import Paths from './routes/Paths'
+import Header from './components/Header';
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Teste</h1>
-    </div>
+    <>
+      <Header/>
+      <Paths/>
+    </>
   )
 }
 
