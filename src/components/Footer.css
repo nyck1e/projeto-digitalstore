@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+.linhas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    background-color: #1F1F1F;
+    padding: 70px 0;
+}

@@ -1,39 +1,9 @@
-import styled from "styled-components";
-
-const FooterContainer = styled.footer `
-    max-width: 1170px;
-    margin: auto;
-    background-color: #1F1F1F;
-    padding: 70px 0;
-    
-        & h4{
-        font-size: 18px;
-        color: #FFFFFF;
-        text-transform: capitalize;
-        margin-bottom: 30px;
-        }
-        & ul{
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        width: 25%;
-        padding: 0 15px;
-        
-        }
-
-        & li{
-        font-size: 15px;
-        color: #FFFFFF;
-        }
-
-`;
+import './Footer.css'
 
 const Footer = () => {
     return ( 
-
-        <FooterContainer>
-            <h1>rodapé</h1>
-
+<>
+        <footer >
             <div classname="container">
                 <div classname="linhas">
                     <div classname="coluna">
@@ -42,7 +12,7 @@ const Footer = () => {
                                 <img src="/src/assets/logofooter.svg" classname="logofooter" alt="Digital Store Logo" />
                             </a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore.
                             </p>
                     </div>
@@ -80,8 +50,9 @@ const Footer = () => {
             <div classname="retangulo">
                 <p>© 2024 Digital College</p>
             </div>
-
-        </FooterContainer>
+        
+        </footer>
+        </>
 
      );
 }
