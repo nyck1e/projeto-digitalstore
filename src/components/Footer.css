@@ -4,22 +4,21 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1170px;
-    margin: auto;
-
-}
-
-.linhas{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul{
-    list-style: none;
-}
-
 footer{
     background-color: #1F1F1F;
     padding: 70px 0;
+}
+
+.containers{
+    padding: 0 16px;
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }

@@ -52,7 +52,6 @@ const Header = () => {
 
         <div className="void"></div>
 
-
         <div className="navbar">
             <nav>
                 
