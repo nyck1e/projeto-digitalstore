@@ -24,7 +24,7 @@ const Header = () => {
                         className="p-inputtext-lg" 
                         placeholder="Pesquisar produtos..."
                     />
-                <InputIcon   InputIcon className="pi pi-search"> </InputIcon>
+                <InputIcon className="pi pi-search"> </InputIcon>
                 </div>
 
             </div>

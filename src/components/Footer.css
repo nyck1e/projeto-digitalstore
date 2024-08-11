@@ -2,13 +2,13 @@ footer{
     background-color: #1F1F1F;
     font-family: Arial, Helvetica, sans-serif;
 }
-.section{
+.sectionf{
     padding: 16px 16px;
 }
 
 .containers{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
     flex-direction: row;
     width: 100%;

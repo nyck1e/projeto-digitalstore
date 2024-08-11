@@ -9,7 +9,7 @@ const Footer = () => {
         <>
 
         <footer>
-        <div className='section'>
+        <div className='sectionf'>
                 <div className='containers'>
                     <div className='box'>
                         <div>

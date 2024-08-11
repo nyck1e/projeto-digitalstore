@@ -1,7 +1,8 @@
-const ProductCard = () => {
+const ProductCards = () => {
     return ( 
-        <h1>productcard</h1>
+        <>
+        </>
      );
 }
  
-export default ProductCard;
+export default ProductCards;
