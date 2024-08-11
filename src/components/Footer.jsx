@@ -1,4 +1,5 @@
 import './Footer.css'
+import './Header.css'
 import Facebook from './icons/Facebook';
 import Instagram from './icons/Instagram';
 import Twitter from './icons/Twitter';

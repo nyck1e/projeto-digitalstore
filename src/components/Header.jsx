@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
 import './Header.css'
+import './Footer.css'
 
 import { InputText } from 'primereact/inputtext';
 import { InputIcon } from 'primereact/inputicon';

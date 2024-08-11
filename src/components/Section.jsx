@@ -1,94 +1,23 @@
-import tenis from "../assets/tenis.png";
+import ProducListing from "./ProductListing";
 import './Section.css'
+import Collection1 from "../assets/collection-1.png";
+import Collection2 from "../assets/collection-2.png";
+import Collection3 from "../assets/collection-3.png";
 
 const Section = () => {
     return ( 
         <>
+
         <div className="section">
-
-        <div className="allcards">
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
+            <div className="collections">
+                <img className="collection" src={Collection1} alt="Novo drop Supreme" />
+                <img className="collection" src={Collection2} alt="Coleção Adidas" />
+                <img className="collection" src={Collection3} alt="Novo Beat Bass" />
             </div>
 
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
+            <div>
+                <ProducListing/>
             </div>
-
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
-            </div>
-
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
-            </div>
-
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
-            </div>
-
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
-            </div>
-
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
-            </div>
-
-            <div className="product-card">
-                <img className="product-image" src={tenis} alt="Tênis" />
-                <h6 className="product-category">Tênis</h6>
-                <h4 className="product-name">K-Swiss V8 - Masculino</h4>
-                <div className="price-container">
-                    <h4 className="original-price">R$200</h4>
-                    <h4 className="discounted-price">$100</h4>
-                </div>
-            </div>
-            </div>
-
-
         </div>
         </>
      );
