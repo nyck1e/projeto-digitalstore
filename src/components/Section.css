@@ -1,11 +1,131 @@
+/* Css - Ordernar por: */
+
+.product-page {
+  display: flex;
+}
+
+.sidebar {
+  width: 308px;
+  padding: 10px;
+  margin-left: 1rem;
+}
+
+.order-by-container {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-by-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 8px;
+}
+
+.order-by-select {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  color: #474747; 
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-list {
+  flex-grow: 1;
+}
+
+
 /* Inicio Sextion ProductListingPage*/
+.background-productlisting{
+  background-color: #F9F8FE;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.filtro{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  flex-direction: row;
+  color: #474747;
+}
+
+.sections{
+  display: flex;
+  justify-content: left;
+  justify-content: center;
+  gap: 10%;
+}
+
+.section-filtergroup{
+  display: flex;
+  justify-content: left;
+  width: 25%;
+  height: 700px;
+  gap: 5%;
+}
 
 .section-productlisting{
-  background-color: #474747;
-  width: 904px;
-  flex-wrap: wrap;
   display: flex;
-  margin-left: 40%;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 75%;
+}
+
+.productlisting-card{
+  display: flex;
+  margin: 8px;
+  margin-left: 8px;
+  flex-direction: column;
+  padding: 2px;
+  border-radius: 12px;
+  width: 25%;
+}
+
+.productlisting-image{
+  width: 292px;
+  height: 321px;
+  object-fit: cover;
+  rotate: 45px;
+  margin-bottom: 16px;
+  padding-right: 4px;
+  margin-top: 7px;
+  background-color: #FFFFFF;
+}
+
+.productlisting-category{
+  color: #8F8F8F;
+  font-size: 16px;
+}
+
+.productlisting-name{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: #1F1F1F;
+}
+
+.price-container-productlisting{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.original-price-productlisting{
+  font-size: 24px;
+  color: #8F8F8F;
+  text-decoration: line-through;
+}
+
+.discounted-price-productlisting{
+  font-size: 24px;
+  color: #1F1F1F;
 }
 
 .informations{
@@ -101,6 +221,13 @@
     display: flex;
     justify-content: center;
     border-radius: 12px;
+}
+
+.oferta-bg{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #FFFFFF
 }
 
 /* Inicio Css ProductCard */

@@ -1,0 +1,42 @@
+.filter-container {
+    margin-left: 24px;
+    border-radius: 4px;
+    margin-top: 24px;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 100%;
+    padding: 24px;
+    color: #474747;
+}
+  
+.separator {
+width: 100%;
+}
+  
+.filter-options {
+display: flex;
+flex-direction: column;
+margin-top: 16px;
+}
+  
+.section-title {
+margin-left: 8px;
+font-size: 14px;
+font-weight: bold;
+}
+  
+.filter-item {
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 4px 0;
+gap: 8px;
+}
+
+.filter-item label{
+font-size: 14px;
+}
+  
+.label {
+font-size: 14px;
+}

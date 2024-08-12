@@ -9,8 +9,19 @@ import headphone from "../assets/headphone.png";
 import shoes from "../assets/shoes.png";
 import Gallery from "./Gallery";
 import ProductCards from "./ProductCard";
+import Oferta from '../assets/oferta.png'
+
+import React, { useState } from 'react';
 
 const Section = () => {
+
+    const [order, setOrder] = useState('low-to-high');
+
+    const handleOrderChange = (e) => {
+      setOrder(e.target.value);
+    };
+
+
     return ( 
         <>
 
@@ -20,6 +31,7 @@ const Section = () => {
 
             <div className="text">
                 <h4>Coleções em destaque</h4>
+
             </div>
 
             <div className="collections">
@@ -77,7 +89,15 @@ const Section = () => {
             <div>
                 <ProductCards/>
             </div>
+
+            
         </div>
+
+        <div className="oferta-bg">
+            <img src={Oferta} alt={Oferta} />
+        </div>
+
+
         </>
      );
 }
