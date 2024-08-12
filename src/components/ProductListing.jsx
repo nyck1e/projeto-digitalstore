@@ -57,6 +57,7 @@ const ProducListing = () => {
 
                         <div className="section-productlisting">
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -64,9 +65,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -74,9 +77,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -84,9 +89,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -94,9 +101,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -104,9 +113,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -114,9 +125,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -124,9 +137,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -134,9 +149,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -144,9 +161,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
                             <div className="productlisting-card">
+                            <a><Link to={"/produto"}>
                                 <img className="productlisting-image" src={tenis} alt="Tênis" />
                                 <h6 className="productlisting-category">Tênis</h6>
                                 <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
@@ -154,57 +173,11 @@ const ProducListing = () => {
                                     <h4 className="original-price-productlisting">R$200</h4>
                                     <h4 className="discounted-price-productlisting">$100</h4>
                                 </div>
+                            </Link></a>
                             </div>
 
-                            <div className="productlisting-card">
-                                <img className="productlisting-image" src={tenis} alt="Tênis" />
-                                <h6 className="productlisting-category">Tênis</h6>
-                                <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
-                                <div className="price-container-productlisting">
-                                    <h4 className="original-price-productlisting">R$200</h4>
-                                    <h4 className="discounted-price-productlisting">$100</h4>
-                                </div>
-                            </div>
+                            
 
-                            <div className="productlisting-card">
-                                <img className="productlisting-image" src={tenis} alt="Tênis" />
-                                <h6 className="productlisting-category">Tênis</h6>
-                                <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
-                                <div className="price-container-productlisting">
-                                    <h4 className="original-price-productlisting">R$200</h4>
-                                    <h4 className="discounted-price-productlisting">$100</h4>
-                                </div>
-                            </div>
-
-                            <div className="productlisting-card">
-                                <img className="productlisting-image" src={tenis} alt="Tênis" />
-                                <h6 className="productlisting-category">Tênis</h6>
-                                <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
-                                <div className="price-container-productlisting">
-                                    <h4 className="original-price-productlisting">R$200</h4>
-                                    <h4 className="discounted-price-productlisting">$100</h4>
-                                </div>
-                            </div>
-
-                            <div className="productlisting-card">
-                                <img className="productlisting-image" src={tenis} alt="Tênis" />
-                                <h6 className="productlisting-category">Tênis</h6>
-                                <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
-                                <div className="price-container-productlisting">
-                                    <h4 className="original-price-productlisting">R$200</h4>
-                                    <h4 className="discounted-price-productlisting">$100</h4>
-                                </div>
-                            </div>
-
-                            <div className="productlisting-card">
-                                <img className="productlisting-image" src={tenis} alt="Tênis" />
-                                <h6 className="productlisting-category">Tênis</h6>
-                                <h4 className="productlisting-name">K-Swiss V8 - Masculino</h4>
-                                <div className="price-container-productlisting">
-                                    <h4 className="original-price-productlisting">R$200</h4>
-                                    <h4 className="discounted-price-productlisting">$100</h4>
-                                </div>
-                            </div>
 
                         </div>
                     </div>

@@ -1,8 +1,10 @@
+import ProductDetails from "../components/ProductDetails";
+
 const ProductViewPage = () => {
     return ( 
-        <div>
-            <h1>Produtos</h1>
-        </div>
+        <>
+            <ProductDetails/>
+        </>
      );
 }
  

@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-import ProductListing from "../components/ProductListing";
 import ProductListingPage from "../pages/ProductListingPage";
 import Layout from "../pages/Layout";
 import NotFound from "../pages/NotFound";
+import ProductViewPage from "../pages/ProductViewPage";
 
 const Paths = () => {
     return ( 
@@ -13,7 +13,7 @@ const Paths = () => {
                     <Route path="/" element={<Layout/>}>
                         <Route path="/" element={<HomePage/>}/>
                         <Route path="/produtos" element={<ProductListingPage/>}/>
-                        <Route path="/produto/:id/:nome" element={<ProductListing/>}/>
+                        <Route path="/produto" element={<ProductViewPage/>}/>
                     </Route>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>

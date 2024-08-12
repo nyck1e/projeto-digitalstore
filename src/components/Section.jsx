@@ -15,13 +15,6 @@ import React, { useState } from 'react';
 
 const Section = () => {
 
-    const [order, setOrder] = useState('low-to-high');
-
-    const handleOrderChange = (e) => {
-      setOrder(e.target.value);
-    };
-
-
     return ( 
         <>
 
@@ -84,6 +77,8 @@ const Section = () => {
 
             <div className="text">
                 <h4>Produtos em alta</h4>
+
+                <h5> Ver todos  →</h5>
             </div>
 
             <div>

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
 import './Header.css'
@@ -37,7 +37,7 @@ const Header = () => {
                 </div>
 
                 <div className="entrar">
-                    <button><a href="">Entrar</a></button>
+                    <button><a href="*">Entrar</a></button>
                 </div>
             
                 <div className="carrinho">
@@ -60,7 +60,6 @@ const Header = () => {
                 <a><NavLink to={"/produtos"}>Produtos</NavLink></a>
                 <a><NavLink to={"*"}>Categorias</NavLink></a>
                 <a><NavLink to={"*"}>Meus Pedidos</NavLink></a>
-                
             </nav>
         </div>
 
