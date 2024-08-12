@@ -1,0 +1,181 @@
+.buybox{
+    width: 700px;
+    height: 670px;
+}
+
+.unit-0 h1{
+    color: #1F1F1F;
+    size: 32px;
+    letter-spacing: 1px;
+}
+
+.unit-0 h4{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 25px;
+}
+
+.review h4{
+    color: #8F8F8F;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 55px;
+}
+
+.moeda{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.original-price-bb {
+    font-size: 16px;
+    color: #CCCCCC;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+  
+.discounted-price-bb {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #474747;
+}
+
+.box-bb{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sizebox{
+    border: solid 1px #CCCCCC;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 12px;
+    height: 12px;
+    padding: 20px;
+    gap: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizebox h3{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+}
+
+.circles-bb{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bluecircle{
+    background-color: #6FEEFF;
+    border-radius: 150px;
+    width: 4px;
+    height: 4px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.redcircle{
+    background-color: #FF6969;
+    border-radius: 150px;
+    width: 4px;
+    height: 4px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.blackcircle{
+    background-color: #5E5E5E;
+    border-radius: 150px;
+    width: 4px;
+    height: 4px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.purplecircle{
+    background-color: #6D70B7;
+    border-radius: 150px;
+    width: 4px;
+    height: 4px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.comprar button{
+    margin-top: 20px;
+    background-color: #FFB31F;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    font-weight: 700;
+    align-items: center;
+    width: 220px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    color:#FFFFFF ;
+}
+
+.unit-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.unit-1 p{
+    color: #474747;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.25;
+    margin-right: 30%;
+    height: 60px;
+}
+
+.unit-1 h4{
+    color: #8F8F8F;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    height: 10px;
+}
+
+.unit-2 h4{
+    color: #8F8F8F;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+.unit-3 h4{
+    color: #8F8F8F;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}

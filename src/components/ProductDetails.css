@@ -22,6 +22,11 @@ margin-right: 5%;
 width: 800px;
 }
 
+.buybox-size{
+  width: 700px;
+  height: 670px;
+}
+
 .text-viewpage{
 display: flex;
 justify-content: space-between;

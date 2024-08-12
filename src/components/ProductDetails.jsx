@@ -19,7 +19,7 @@ const ProductDetails = () => {
                     <GalleryView/>
                 </div>
 
-                <div>
+                <div className="buybox-size">
                     <BuyBox/>
                 </div>
 
