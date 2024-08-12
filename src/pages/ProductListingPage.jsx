@@ -1,9 +1,10 @@
 import React from 'react';
+import ProducListing from '../components/ProductListing';
 
 const ProductListingPage = () => {
     return ( 
         <>
-        <h1>productlistingpage</h1>
+            <ProducListing/>
         </>
      );
 }

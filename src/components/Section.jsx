@@ -8,6 +8,7 @@ import pants from "../assets/pants.png";
 import headphone from "../assets/headphone.png";
 import shoes from "../assets/shoes.png";
 import Gallery from "./Gallery";
+import ProductCards from "./ProductCard";
 
 const Section = () => {
     return ( 
@@ -74,7 +75,7 @@ const Section = () => {
             </div>
 
             <div>
-                <ProducListing/>
+                <ProductCards/>
             </div>
         </div>
         </>

@@ -1,3 +1,25 @@
+/* Inicio Sextion ProductListingPage*/
+
+.section-productlisting{
+  background-color: #474747;
+  width: 904px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 40%;
+}
+
+.informations{
+  display: flex;
+  justify-content: space-between;
+}
+
+.informations h4{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+/* Inicio Section HomePage*/
+
 .section{
     background-color: #F9F8FE;
     font-family: Arial, Helvetica, sans-serif;

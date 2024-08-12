@@ -5,7 +5,16 @@ import ProductCards from "./ProductCard";
 const ProducListing = () => {
     return ( 
         <>
-            <ProductCards/>
+            <div className="informations">
+                <h4>Resultados para "Tênis" - 12 produtos</h4>
+
+                <h>Ordernar por: Mais relevantes</h>
+            </div>
+
+            <div className="section-productlisting">
+                <ProductCards/>
+            </div>
+            
         </>
      );
 }
