@@ -1,5 +1,8 @@
 PROJETO FRONT END - Digital Store
 
+Inicializar:
+npm run dev
+
 Equipe:
 
 @nyck1e - Nyvea Maria Carneiro Soeiro
