@@ -6,13 +6,13 @@ npm run dev // Inicializar server
 
 <h3>Bibliotecas Usadas:</h3>
 
-npm i primereact
+npm i primereact => PrimeReact
 
-npm i primeflex
+npm i primeflex => PrimeFlex
 
-npm i styled-components
+npm i styled-components => Styled Components
 
-npm i swiper
+npm i swiper => Swiper
 
 <h3>Equipe:</h3>
 
